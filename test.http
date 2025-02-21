@@ -1,0 +1,26 @@
+# Examples: https://httpyac.github.io/guide/examples.html
+
+@host_api=http://localhost:8080
+
+
+### 
+# Autenticação
+# @name login_token
+
+@username=user
+@password=user
+
+POST {{host_api}}/signin
+Content-Type: application/json
+
+{
+    "username": "{{username}}",
+    "password": "{{password}}"
+}
+
+
+###
+# foo-bar
+# @ref login_token
+GET {{host_api}}/foo-bar
+Authorization: Bearer {{login_token}}
