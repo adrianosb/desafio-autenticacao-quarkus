@@ -1,5 +1,3 @@
-# desafio-autenticacao-with-quarkus
-
 # Desafio Backend: Autenticação
 
 Resolução do desafio proposto pelo repositório Backend Brasil, detalhes do desafio [aqui](https://github.com/backend-br/desafios/blob/master/authentication/PROBLEM.md)
